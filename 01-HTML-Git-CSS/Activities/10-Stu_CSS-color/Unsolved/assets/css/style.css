@@ -1,20 +1,43 @@
+/* sets styles */
 .lesson {
-    width: 200px;
-    height: 100px;
-  }
-  
+
+  /* Sets width for all */
+  width: 200px;
+
+  /* Sets height for all */
+  height: 100px;
+}
+
+/* Uses hex code to define color */
 .section-blue {
 
+  /* Sets text color for section 2-3 */
+  color: #ffa500;
+
+  /* Sets background color for section 2-3 */
+  background-color: #0000FF;
 }
-  
+
+/* Uses predefine colors */
 .container {
+  /* Sets text color for section 4-6 */
+  color: white;
 
+  /* Sets background color for section 4-6 */
+  background-color: black; 
 }
 
+/* Purple and yellow are examples of high contrast colors */
 #section-1 {
+  /* Sets text color for section 1 */
+  color: #ffff00;
 
+  /* Sets background color for section 1*/
+  background-color: #800080;
 }
 
 #section-6 {
 
+  /* Sets text color for section 6 which overrides previous */
+  color: #ffff00;
 }
