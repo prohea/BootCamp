@@ -14,8 +14,8 @@ console.log(itemnames[3]);
 
 itemnames[3] = "HeartContainer";
 
-console.log(names[3]);
+console.log(itemnames[3]);
 
-if (itemnames[0] === "Hearts") {
-  console.log(itemnames[0] + "gives you health!");
+if (itemnames[3] === "HeartContainer") {
+  console.log(itemnames[3] + " gives you another heart!");
 }
