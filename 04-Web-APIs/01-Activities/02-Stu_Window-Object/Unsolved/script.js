@@ -1,12 +1,12 @@
-// TODO: What will the following line of code log?
+// Logs window object
 console.log(window);
 
-// TODO: What will the following line of code log?
+// Logs reference to the document in the window object
 console.log(window.document);
 
-// TODO: What will the following line of code log?
+// Logs root element of document
 console.log(document.documentElement);
 
-// TODO: What will the following line of code log?
+// Returns head element of current document
 console.log(document.head);
 
