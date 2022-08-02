@@ -1,19 +1,24 @@
+/* Sets lesson section background color */
 .lesson {
   background-color: lemonchiffon;
 }
 
+/*Sets title section color */
 .title {
   color: darkblue;
 }
 
+/* Sets email section background color */
 #email {
   background-color: goldenrod;
 }
 
+/*Sets github section background color */
 #github {
   background-color: lightsteelblue;
 }
 
+/* Sets portfolio section background color */
 #portfolio {
   background-color: darkorange;
 }

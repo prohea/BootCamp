@@ -1,17 +1,21 @@
+/* Sets background color for lesson section */
 .lesson  {
   background-color: lemonchiffon;
 }
 
+/* Sets color and background color for paragraph 1 */
 #paragraph-1 {
   color: darkslateblue;
   background-color: white;
 }
 
+/* Sets color and background color for paragraph 2 */
 #paragraph-2 {
   color: darkslateblue;
   background-color: darkorange;
 }
 
+/* Sets color and background color for pargraph 3 */
 #paragraph-3 {
     color: white;
     background-color: darkslateblue;
