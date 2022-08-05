@@ -5,20 +5,20 @@ var todoCountSpan = document.querySelector("#todo-count");
 
 var todos = [];
 
-// TODO: What is the purpose of this function?
+// To submit to dos.
 function renderTodos() {
-  // TODO: Describe the functionality of the following two lines of code.
+  // Checks how many items are in the array and displays them on page.
   todoList.innerHTML = "";
   todoCountSpan.textContent = todos.length;
   
-  // TODO: Describe the functionality of the following `for` loop.
+  // Checks how many items are in the array and adds items to list on page.
   for (var i = 0; i < todos.length; i++) {
     var todo = todos[i];
 
     var li = document.createElement("li");
     li.textContent = todo;
     li.setAttribute("data-index", i);
-
+  // Adds attributes
     var button = document.createElement("button");
     button.textContent = "Complete ✔️";
 
@@ -27,27 +27,27 @@ function renderTodos() {
   }
 }
 
-// TODO: What is the purpose of the following function?
+// Checking if there is anything in local storage.
 function init() {
-  // TODO: What is the purpose of the following line of code?
+  // Creates a variable that parses the JSON in local storage.
   var storedTodos = JSON.parse(localStorage.getItem("todos"));
-  // TODO: Describe the functionality of the following `if` statement.
+  // If stored to dos isn't empty then it updates to dos with the stored to dos.
   if (storedTodos !== null) {
     todos = storedTodos;
   }
-  // TODO: Describe the purpose of the following line of code.
+  // Takes items stored in storage and adds them to the page.
   renderTodos();
 }
 
 function storeTodos() {
-  // TODO: Describe the purpose of the following line of code.
+  // Sets "to dos" in local storage as a string.
   localStorage.setItem("todos", JSON.stringify(todos));
 }
-// TODO: Describe the purpose of the following line of code.
+// Adds an event listener 
 todoForm.addEventListener("submit", function(event) {
   event.preventDefault();
   var todoText = todoInput.value.trim();
-  // TODO: Describe the functionality of the following `if` statement.
+  // 
   if (todoText === "") {
     return;
   }
