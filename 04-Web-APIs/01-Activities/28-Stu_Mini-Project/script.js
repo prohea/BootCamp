@@ -36,4 +36,4 @@ function countdown () {
         showTime();
     } else {
         console.log('Timer is at ')
-    } 
+    }
