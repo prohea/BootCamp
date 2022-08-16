@@ -1,7 +1,7 @@
 var requestUrl = 'https://api.github.com/orgs/Netflix/repos';
 
 // JQuery AJAX
-// TODO: Comment on how AJAX returns an API call
+// AJAX call requires a third party library, jQuery
 $.ajax({
   url: requestUrl,
   method: 'GET',
@@ -11,7 +11,7 @@ $.ajax({
 });
 
 // Browser Fetch Method
-// TODO: Comment on how Fetch returns an API call
+//  fetch request gets a list of all the repos for the node.js organization
 fetch(requestUrl)
   .then(function (response) {
     return response.json();
@@ -22,7 +22,7 @@ fetch(requestUrl)
   });
 
 // Browser XMLHttpRequest
-// TODO: Comment on how XMLHttpRequest returns an API call
+// Browser XMLHttpRequest, built in the browser and require more code.
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
   if (xhr.readyState === XMLHttpRequest.DONE) {
