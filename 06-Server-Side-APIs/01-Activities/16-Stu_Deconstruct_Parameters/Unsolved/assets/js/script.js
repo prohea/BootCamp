@@ -9,3 +9,10 @@ fetch(
     console.log(data);
   });
 // Parameter explanation.
+//The per_page parameter will limit the results base per page.
+
+//The state parameter represents the current state of the issue. It can be open, closed, or all.
+
+//Sort will order the results based on the parameter given, the date created, updated, or comments.
+
+//Direction will determine the order of the sort.
